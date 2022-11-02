@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #1B2430;
+  font-family: 'Montserrat', sans-serif;
+  color: #FAF7F0;
+  font-size: large;
+  line-height: 40px;
+}
+
+h1 h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 40px;
+}
+
+.banner {
+  background-image: url(https://images.unsplash.com/photo-1637561930888-dfedf87bf609?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2067&q=80);
+  background-position: 25% 75%;;
+  background-size: cover;
+  color: white;
+  padding: 350px 0;
+  height: 300px;
+  text-align: center;
+}
+
+.container {
+  width: 50px auto;
+  margin: 50px auto;
+}
+
+#article {
+  text-align: center;
+  margin-top: -5px;
+}
+
+.a1 {
+  padding: 20px;
+}
+
+.a1 h2{
+  color: #FEC260;
+}
+
+/* Media queries */
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
